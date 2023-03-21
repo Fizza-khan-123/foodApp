@@ -1,0 +1,627 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 90px;
+  padding-left: 10%;
+  padding-right: 5%;
+  background-color: white;
+  z-index: 5;
+  width: 100%;
+  box-sizing: border-box;
+}
+.responsive-navbar {
+  background-color: white;
+  height: 89px;
+  z-index: 4;
+  /* border: 1px solid red; */
+}
+.navbar-options {
+  display: flex;
+}
+
+.responsive-navbar-options {
+  display: flex;
+}
+
+.nav-option {
+  font-family: Montserrat !important;
+}
+
+.nav-option1 {
+  color: #fa4a0c !important;
+  margin-right: 5vw;
+}
+.nav-option2 {
+  margin-right: 5vw;
+}
+.nav-option3 {
+  margin-right: 5vw;
+}
+
+.navbar-logo {
+  height: auto;
+  width: 150px;
+}
+.below-navbar {
+  height: 90px;
+}
+.sticky {
+  position: fixed;
+}
+
+a:active {
+  color: #fa4a0c;
+  cursor: pointer;
+}
+a:visited {
+  color: #fa4a0c;
+}
+a:hover {
+  cursor: default;
+}
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("./assets/images/homeBackground.png");
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 70%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.app-name {
+  font-family: Montserrat !important;
+  font-weight: 600;
+  letter-spacing: 0.10000000149011612px;
+  color: white;
+  text-align: center;
+  padding-top: 30px !important;
+  margin-bottom: 0px !important;
+}
+
+.app-slogan {
+  font-family: Poppins;
+  /* font-size: 3vw; */
+  font-size: 56px;
+  font-weight: 600;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  color: white;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.home-page-line3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  /* font-size: 1.5vw; */
+  font-weight: 400;
+  letter-spacing: 0.20000000298023224px;
+  text-align: center;
+  max-width: 75%;
+  min-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.home-page-buttons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.play-store {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 16px 0px;
+  width: 170px;
+  height: 48px;
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border-radius: 30px;
+  outline: none !important;
+  border: none !important;
+}
+.app-store {
+  margin-left: 25px !important;
+  align-items: center;
+
+  background-color: transparent;
+  padding: 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  width: 170px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.mobile-pictures {
+  display: flex;
+  flex-direction: row;
+}
+.phone-img1 {
+  width: 180px;
+  height: auto;
+
+  margin-right: -20px;
+}
+.phone-img2 {
+  width: 180px;
+  margin-top: 50px;
+}
+.horizontal-break {
+  width: 60%;
+  height: 3px;
+  background-color: #e4e4e4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.horizontal-break2 {
+  width: 100%;
+  height: 3px;
+  background-color: #e4e4e4;
+
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.work-heading {
+  font-weight: 600;
+  text-align: center;
+  font-family: Poppins;
+  margin-bottom: 20px;
+  opacity: 80%;
+}
+.app-working-container {
+  display: grid;
+  margin-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  grid-template-columns: 38% 60%;
+}
+.item-1 {
+  display: flex;
+  justify-content: center;
+}
+.item-2 {
+  box-sizing: border-box;
+  margin-top: 20%;
+}
+
+.login-phone-img {
+  width: 220px;
+
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.3));
+  height: 380px;
+}
+.login-line1 {
+  font-family: Montserrat;
+  color: #fa4a0c;
+  /* font-size: 27px; */
+  font-weight: 600;
+}
+
+.login-line3 {
+  font-family: Montserrat;
+  color: #737373;
+  font-weight: 400;
+  /* font-size: 1vw; */
+  font-size: 15px;
+}
+
+.login-line2 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+/* variety container */
+
+.varieties-container {
+  display: grid;
+  margin-bottom: 60px;
+  padding-left: 10%;
+  padding-right: 8%;
+  box-sizing: border-box;
+  grid-template-columns: 60% 38%;
+}
+.variety-item-1 {
+  box-sizing: border-box;
+  margin-top: 20%;
+  padding-left: 15%;
+}
+
+.variety-item-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.variety-phone-img {
+  width: 200px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.3));
+  height: 380px;
+}
+.variety-line1 {
+  font-family: Montserrat;
+  color: #fa4a0c;
+  /* font-size: 27px; */
+  font-weight: 600;
+}
+
+.variety-line3 {
+  font-family: Montserrat;
+  color: #737373;
+  font-weight: 400;
+  /* font-size: 1vw; */
+  font-size: 15px;
+}
+
+.variety-line2 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.download-section {
+  display: flex;
+  background: url("./assets/images/downloadBackground.png");
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-text {
+  margin-top: 80px !important;
+  color: white;
+  text-align: center;
+}
+.download-text-2 {
+  color: white;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.download-playstore {
+  background-color: #fa4a0c;
+  color: white;
+  border-radius: 10px;
+  width: 120px;
+  height: 50px;
+  border: none;
+}
+.download-appstore {
+  color: white;
+  width: 149px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.download-buttons {
+  margin-bottom: 100px;
+}
+/* Footer Styling */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 160px;
+}
+
+.footer-social-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon-1 {
+  width: 33px;
+  height: 27px;
+}
+.icon-2 {
+  margin-left: 32px;
+  width: 33px;
+  height: 27px;
+}
+.icon-3 {
+  margin-left: 32px;
+  width: 33px;
+  height: 27px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+  .responsive-navbar-options {
+    display: none;
+  }
+
+  .home-page {
+    background-image: none;
+    justify-content: flex-start !important;
+    padding-left: 0% !important;
+    padding-right: 0%;
+  }
+  .phone-img1 {
+    width: 49%;
+    /* width: 200px; */
+    height: auto;
+  }
+  .phone-img2 {
+    width: 49%;
+    /* width: 200px; */
+    height: auto;
+  }
+  .app-name {
+    color: #737373;
+    font-size: 20px;
+    line-height: 36px;
+  }
+  .app-slogan {
+    color: black;
+    /*  p */
+    font-size: 36px;
+    text-align: center;
+  }
+  .home-page-line3 {
+    color: #737373;
+  }
+
+  .home-page-buttons {
+    flex-direction: column;
+    margin-left: 0px !important;
+  }
+
+  .play-store {
+    width: 210px;
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 24px !important;
+  }
+
+  .app-store {
+    margin-left: 0px !important;
+    width: 210px;
+    height: 60px;
+    border: 1px solid #fa4a0c !important;
+    color: #fa4a0c;
+    font-size: 27px !important;
+    margin-bottom: 15px;
+  }
+  .horizontal-break {
+    display: none;
+    margin-top: 20px;
+  }
+  .horizontal-break2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .work-heading {
+    margin-top: 50px;
+  }
+  .app-working-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .item-1:nth-child(1) {
+    order: 2;
+    grid-column: 1/12;
+  }
+  .item-2:nth-child(2) {
+    order: 1;
+    grid-column: 1/12;
+  }
+  .item-1 {
+    margin-left: 0;
+  }
+  .item-2 {
+    margin-top: 0px;
+  }
+  .login-phone-img {
+    width: 200px;
+    height: 400px;
+  }
+
+  .login-line1 {
+    text-align: center;
+  }
+  .login-line2 {
+    font-size: 32px;
+    line-height: 57px;
+    text-align: center;
+  }
+  .login-line3 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  /* for variety container */
+
+  .varieties-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .variety-item-1 {
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+  }
+  .variety-item-1 {
+    grid-column: 1/12;
+  }
+  .variety-item-2 {
+    grid-column: 1/12;
+    margin-top: 0px;
+  }
+  .variety-phone-img {
+    width: 200px;
+    height: 400px;
+  }
+
+  .variety-line1 {
+    text-align: center;
+  }
+  .variety-line2 {
+    font-size: 36px;
+    line-height: 57px;
+    text-align: center;
+  }
+  .variety-line3 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  /* for download section */
+  .download-section {
+    background: #252b42 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .responsive-menu-icon {
+    display: none;
+  }
+  .horizontal-break2 {
+    display: none;
+  }
+}
+
+/* media query for home-page  */
+
+@media screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-logo-img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .phone-img1 {
+    width: 150px;
+    height: auto;
+  }
+  .phone-img2 {
+    width: 150px;
+    height: auto;
+  }
+  .home-page-buttons {
+    margin-left: 50px;
+  }
+  .app-store {
+    width: 130px;
+    height: 40px;
+  }
+  .play-store {
+    width: 130px;
+    height: 40px;
+  }
+  .app-slogan {
+    font-size: 32px;
+  }
+  .login-phone-img {
+    height: 260px;
+    width: 150px;
+  }
+  .login-line1 {
+    font-size: 20px;
+  }
+  .login-line2 {
+    font-size: 26px;
+  }
+  .login-line3 {
+    font-size: 10px;
+  }
+
+  .variety-phone-img {
+    height: 260px;
+    width: 150px;
+  }
+  .variety-line1 {
+    font-size: 20px;
+  }
+  .variety-line2 {
+    font-size: 26px;
+  }
+  .variety-line3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+  .app-store {
+    width: 150px;
+    height: 40px;
+  }
+  .play-store {
+    width: 150px;
+    height: 40px;
+  }
+  .phone-img1 {
+    width: 180px;
+    height: auto;
+  }
+  .app-slogan {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .app-slogan {
+    font-size: 45px;
+  }
+}
+
+/* media query for create account part */
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .login-line2 {
+    font-size: 20px;
+  }
+}
